@@ -59,7 +59,8 @@ const TimelineSection: React.FC = () => {
                  <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-blue-500 to-transparent opacity-50"></div>
                  
                  <div className="space-y-3">
-                    <div className="text-gray-500">JSON.parse(config).then(app => {'{'}</div>
+                    {/* <div className="text-gray-500">JSON.parse(config).then(app => {'{'}</div> */}
+                    <div className="text-gray-500">{`JSON.parse(config).then(app => {`}</div>
                     <div className="text-gray-500 pl-4">app.initString("message": "init")</div>
                     <div className="text-gray-500">{'}'}</div>
                     
